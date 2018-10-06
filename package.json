@@ -1,0 +1,25 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AABorisov/typescript.git"
+  },
+  "author": "Andrey Borisov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AABorisov/typescript/issues"
+  },
+  "homepage": "https://github.com/AABorisov/typescript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "typescript": "^3.1.1"
+  }
+}
