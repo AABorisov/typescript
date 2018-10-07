@@ -1,8 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var greet_1 = require("./greet");
+import { sayHello } from "./greet";
 function showHello(divName, name) {
-    var elt = document.getElementById(divName);
-    elt.innerText = greet_1.sayHello(name);
+    const elt = document.getElementById(divName);
+    elt.innerText = sayHello(name);
 }
 showHello("greeting", "TypeScript");
